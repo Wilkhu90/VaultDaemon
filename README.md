@@ -1,5 +1,5 @@
 # VaultDaemon
-A light-weight daemon written in Pure C lang for rotating HashiCorp Vault secrets like ssh keys, passwords etc. The code expect you to use Dynamic Secrets in HashiCorp Vault.
+A light-weight daemon written in Pure C lang for rotating HashiCorp Vault secrets like ssh keys, passwords etc. on remote nodes. The code expect you to use Dynamic Secrets in HashiCorp Vault.
 
 ## Build
 ```ruby
