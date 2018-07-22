@@ -125,9 +125,9 @@ int main(int argc, char *argv[]) {
       }
       syslog (LOG_NOTICE, "VaultDaemon just got the secret data.");
       syslog (LOG_NOTICE, "%s\n", res_data);
-      /* Begin - Use this section to do whatever you want with the res_data(secret) */
+      /* Begin - Use this section to do whatever you want with the res_data i.e. secret info */
       
-      /* End - Use this section to do whatever you want with the res_data(secret) */
+      /* End - Use this section to do whatever you want with the res_data i.e. secret info */
       sleep(30);
       free(json.ptr);
     }
