@@ -11,3 +11,7 @@ gcc -lcurl VaultDaemon.c libjsmn.a -o VaultDaemon
 ```ruby
 ./VaultDaemon <VAULT TOKEN> <VAULT_HOST>/secret/ssh_key
 ```
+## Verify
+Just check the system logs based on the OS and you should be able to see an entry every 30 seconds regarding Vault daemon.
+- Centos - /var/log/messages
+- Ubuntu - /var/log/syslog
