@@ -15,3 +15,7 @@ gcc -lcurl VaultDaemon.c libjsmn.a -o VaultDaemon
 Just check the system logs based on the OS and you should be able to see an entry every 30 seconds regarding Vault daemon.
 - Centos - /var/log/messages
 - Ubuntu - /var/log/syslog
+You can also check the process running on the OS.
+```ruby
+ps -ef | grep VaultDaemon
+```
